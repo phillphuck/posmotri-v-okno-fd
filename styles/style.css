@@ -79,6 +79,7 @@ ol {
 }
 
 .content__details {
+  max-width: 399px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -131,7 +132,7 @@ ol {
 }
 
 .title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -245,23 +246,22 @@ ol {
 .button {
   border: 1px solid #fff;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 700;
-  font-size: 18px;
+  font-size: inherit;
   background-color: transparent;
   cursor: pointer;
+  height: 34px;
 }
 
 .search-form__submit-button {
   align-self: end;
   width: 194px;
-  height: 34px;
 }
 
 .more-button {
   flex-shrink: 0;
   width: 100%;
-  height: 34px;
 }
 
 .button:hover {
